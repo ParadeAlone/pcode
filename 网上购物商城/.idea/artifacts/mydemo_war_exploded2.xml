@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mydemo:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/mydemo_war_exploded2</output-path>
+    <root id="archive" name="mydemo_war exploded2.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mydemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mchange-commons-java-0.2.19" />
+          <element id="library" level="project" name="commons-fileupload-1.4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="mydemo/web/Web" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/c3p0-0.9.5.5.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/commons-dbutils-1.7.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/commons-fileupload-1.4.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/commons-io-2.8.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/fastjson-1.2.47.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/jstl-1.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/mchange-commons-java-0.2.19.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.28.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/standard-1.1.2.jar" />
+    </root>
+  </artifact>
+</component>
